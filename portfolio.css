@@ -1,0 +1,71 @@
+*{
+    background-color:black;
+    margin:8px 40px;
+}
+h1{
+    color:white;
+}
+p{
+    color:white;
+}
+.navbar ul
+{
+    overflow:auto;
+}
+.navbar li a{
+    /* background-color:#FFC916; */
+    padding:3px;
+    text-decoration: none;
+    padding:3px 3px;
+    color:rgb(212, 185, 9);
+}
+.navbar li
+{
+    margin: 12px 20px;
+    float:left;
+    list-style:none;
+    
+}
+.aboutME{
+    color:white;
+    text-align: center;
+}
+.linktree{
+    align-items:flex-end;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.linktree a{
+    
+    text-decoration:none;
+    color:black;
+    padding:8px 49px;
+    border-radius: 3px;
+    background-color:#FFC916;
+    align-items:stretch;
+  
+   
+}
+.linktree a:hover{
+    background-color:rgb(109, 99, 8);
+    color:white;
+    transition-property: inherit;
+    text-transform: uppercase;
+}
+.insta{
+    color:black;
+    background-color:#FFC916;
+    border-radius:3px;
+    padding:5px 20px;
+    width:30px;
+    text-decoration: none;
+    
+}
+.insta:hover{
+    color:white;
+    background-color:rgb(109, 99, 8);
+    text-transform: uppercase;
+}
